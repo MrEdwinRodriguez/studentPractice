@@ -23,10 +23,6 @@ const students = [
     }
 ]
 
-//GOAL: understand the higher Order function .map
-//map funciton is going to create a new array.  It calls a function for every element in the original array.
-//It does not mutate (change) the orginal array
-//It always returns a value, if nothing is specified, it returns undefined
 
 //Example 1: Get a list of ids from the students
 
