@@ -50,7 +50,13 @@ const students = [
 
 
 
+//Map and forEach notes
+//both iterate through the array
+// Both do not mutate the orignal array
+//Both are pass a function as an argument to be called on every iteration (a callback)
 
+//Map returns and array
+//each iteration return a value.
 
-
+//forEach does not return anything. 
 

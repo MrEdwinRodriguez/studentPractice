@@ -6,7 +6,7 @@ const used_cars = [
         previous_owners: [
             "John Thomas", "Jacob Jones"
         ],
-        milage: 78000
+        mileage: 78000
     },
     {
         make: "Nissan",
@@ -15,7 +15,7 @@ const used_cars = [
         previous_owners: [
             "Joe Clark"
         ],
-        milage: 47000
+        mileage: 47000
     },
     {
         make: "Honda",
@@ -24,7 +24,7 @@ const used_cars = [
         previous_owners: [
             "Michelle Smith", "Elie Mae", "Matthew Mckenzie"
         ],
-        milage: 68000
+        mileage: 68000
     },
     {
         make: "Honda",
@@ -33,7 +33,7 @@ const used_cars = [
         previous_owners: [
             "Brady Lewis"
         ],
-        milage: 68000
+        mileage: 68000
     },
 ];
 
@@ -50,4 +50,17 @@ const used_cars = [
 
 
 //Task 2: A customer would like to see a list of all cars with only one owener.
+
+
+//NOTES .filter and .find:
+//Bother iterate through an array
+//both return something
+//Both Will not run on empty arrays
+//Both do not mutate the original array
+
+//.filter returns an array of values that meet the condition
+//.filter returns an empty array if nothing is found
+
+//.find Returns the first value that mathces the condition
+//.find returns undefined if nothing is found.
 
